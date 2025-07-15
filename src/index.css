@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --color-primary: #47a992;
+  --color-secondary: #fbbd23;
+  --color-accent: #47b5ff;
+  --color-neutral: #fefefe;
+  --color-base-100: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #EEEEEE;
+}
+main {
+  min-height: 80vh;
+}
